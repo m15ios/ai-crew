@@ -1,0 +1,29 @@
+# Node.js / Python / общие
+node_modules/
+.env
+.env.local
+.env.development
+.env.production
+*.env
+
+# Docker
+docker-compose.yml
+docker-compose.yaml
+docker-compose.override.yml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Система
+.DS_Store
+Thumbs.db
+
+# Логи и кэш
+*.log
+dist/
+build/
+.next/
+__pycache__/
+venv/
+.idea/

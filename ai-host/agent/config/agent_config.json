@@ -1,0 +1,16 @@
+{
+  "gitea": {
+    "repo_owner": "admin",
+    "repo_name": "jira-sync",
+    "default_labels": ["jira-sync", "automated"]
+  },
+  "jira": {
+    "project_key": "AL",
+    "jql_query": "status NOT IN (Done, Closed, Resolved)",
+    "max_results": 20
+  },
+  "sync": {
+    "enabled": true,
+    "create_repository": true
+  }
+}
