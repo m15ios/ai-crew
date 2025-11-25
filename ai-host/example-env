@@ -1,0 +1,23 @@
+# Gitea Configuration
+GITEA_URL=http://192.168.xxxx:xxxx
+GITEA_TOKEN=xxxx
+GITEA_REPO_OWNER=xxxx
+GITEA_REPO_NAME=xxxx
+
+# Jira Configuration  
+JIRA_URL=http://192.168.xxxx:xxxx
+JIRA_USERNAME=xxxx
+JIRA_PASSWORD=xxxx
+JIRA_ADMIN_PASSWORD=xxxx
+JIRA_PROJECT=xxxx
+JIRA_AGENT_USERNAME=xxxx
+
+# AI Configuration
+AI_MODEL_URL=http://192.168.xxxx:xxxx
+AI_MODEL_NAME=xxxx
+AI_TEMPERATURE=0.7
+
+# Agent Settings
+SYNC_INTERVAL=60
+TASK_PROCESS_INTERVAL=120
+
